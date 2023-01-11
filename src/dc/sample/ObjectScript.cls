@@ -8,7 +8,7 @@ ClassMethod Test() As %Status
     write "This is InterSystems IRIS with version ",$zv,!
     write "Current time is: "_$zdt($h,2),!
     write ..Testtwo(),!
-    return a
+    return abc
 }
 
 ClassMethod Testtwo()
