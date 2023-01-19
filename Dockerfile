@@ -13,7 +13,7 @@ WORKDIR /home/irisowner/irisdev
 ##USER ${ISC_PACKAGE_MGRUSER}
 
 ARG TESTS=0
-ARG MODULE="dc-sample"
+ARG MODULE="lelikone-sample"
 ARG NAMESPACE="IRISAPP"
 
 ## Embedded Python environment

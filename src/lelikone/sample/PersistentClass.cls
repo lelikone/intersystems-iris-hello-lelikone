@@ -1,4 +1,4 @@
-Class dc.sample.PersistentClass Extends %Persistent
+Class lelikone.sample.PersistentClass Extends %Persistent
 {
 
 Property Test As %VarString;
@@ -17,7 +17,7 @@ ClassMethod CreateRecord(ByRef id As %Integer) As %Status
 ClassMethod ReadProperty(id As %Integer) As %Status
 {
     Set sc = $$$OK
-    #dim obj as dc.sample.PersistentClass
+    #dim obj as lelikone.sample.PersistentClass
     set obj=..%OpenId(id,,.sc)
     if $ISOBJECT(obj) write obj.Test
     Return sc
@@ -33,11 +33,11 @@ Storage Default
 <Value>Test</Value>
 </Value>
 </Data>
-<DataLocation>^dc.Package4C8F.PersistentC1A93D</DataLocation>
+<DataLocation>^lelikone.sF347.PersistentC1A93D</DataLocation>
 <DefaultData>PersistentClassDefaultData</DefaultData>
-<IdLocation>^dc.Package4C8F.PersistentC1A93D</IdLocation>
-<IndexLocation>^dc.Package4C8F.PersistentC1A93I</IndexLocation>
-<StreamLocation>^dc.Package4C8F.PersistentC1A93S</StreamLocation>
+<IdLocation>^lelikone.sF347.PersistentC1A93D</IdLocation>
+<IndexLocation>^lelikone.sF347.PersistentC1A93I</IndexLocation>
+<StreamLocation>^lelikone.sF347.PersistentC1A93S</StreamLocation>
 <Type>%Storage.Persistent</Type>
 }
 
