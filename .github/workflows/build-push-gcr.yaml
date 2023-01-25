@@ -10,7 +10,7 @@ env:
   # Change this section according to your needs
   IMAGE_NAME:   lelikone
   SERVICE:      lelikone
-  DOMAIN_NAME:  lelikone.community.intersystems.com
+  DOMAIN_NAME:  lelikone.demo.community.intersystems.com
 
   # Leave this section untouched
   PROJECT_ID:   iris-community-demos
